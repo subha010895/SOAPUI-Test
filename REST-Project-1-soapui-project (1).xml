@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="941da44a-ebcd-4c1e-9be4-11e3814113df" activeEnvironment="Default" name="REST Project 1" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="Reqres testsuite"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="TestCase 1"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="7dde691a-731d-4ca8-8b7b-74b438f44f48" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://reqres.in" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://reqres.in</con:endpoint></con:endpoints><con:resource name="Unknown" path="/api/unknown" id="baa196c2-f27a-47b9-820c-7ca4a40d88aa"><con:settings/><con:parameters/><con:method name="Unknown 1" id="11cbd778-127a-4fa5-a6c5-9509422fd454" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:unk="https://reqres.in/api/unknown">unk:Response</con:element></con:representation><con:request name="Request 1" id="dad96240-6c3e-430e-9976-84eb85d3355f" mediaType="application/json"><con:settings/><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="users" path="/api/users" id="d24b4afa-111a-4025-90d8-7931195bbb06"><con:settings/><con:parameters/><con:method name="Method 1" id="d6ffdecb-213d-4dd5-96b0-61c6853639ba" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="9d094a24-2c34-4d21-88b8-082ec96da27c" mediaType="application/json"><con:settings/><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="users" path="/api/users" id="f3e8e625-5259-4269-bc7b-b8f69e062b8a"><con:settings/><con:parameters/><con:method name="Method 1" id="8f65bd1b-86c4-49f6-814c-c0e4a4d96e9a" method="DELETE"><con:settings/><con:parameters/><con:request name="Request 1" id="5a7b6b58-46b0-4a9d-832c-cc4b03a7114a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="users" path="/api/users" id="8ccef055-0e28-4430-96f1-9ae2a806dc3f"><con:settings/><con:parameters><con:parameter><con:name>page</con:name><con:value>2</con:value><con:style>QUERY</con:style><con:default>2</con:default></con:parameter></con:parameters><con:method name="Method 1" id="3a423002-1659-4901-9ef5-42356291e0f1" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:request name="Request 1" id="d246d0f3-ddd6-4ba3-be33-a08056844c30" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="page" value="{Page}" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="89cf1c9c-c39d-47e5-a404-c654f48db15e" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://dummy.restapiexample.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://dummy.restapiexample.com</con:endpoint></con:endpoints><con:resource name="Employees" path="/api/v1/employees" id="d0a8698a-b9d0-475e-b518-39030811bf1f"><con:settings/><con:parameters/><con:method name="Employees 1" id="3ac51278-4274-482b-bb40-5d0ff7ecb6ba" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="0e708b00-dacc-443e-b31d-f8bb531b1c8b" mediaType="application/json"><con:settings/><con:endpoint>http://dummy.restapiexample.com</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="497d9ed5-b569-467d-a0ea-347e7d1a30aa" name="Dummy testsuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="df43351e-537a-48db-93f0-6da507727eeb" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Employees 1 - Request 1" id="303f04e6-ecb2-40cd-bc2a-76cdefcb57a1"><con:settings/><con:config service="http://dummy.restapiexample.com" resourcePath="/api/v1/employees" methodName="Employees 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Employees 1 - Request 1" id="0e708b00-dacc-443e-b31d-f8bb531b1c8b" mediaType="application/json"><con:settings/><con:endpoint>http://dummy.restapiexample.com</con:endpoint><con:request/><con:originalUri>http://dummy.restapiexample.com/api/v1/employees</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="3c15a9a3-b4d0-44b7-acec-2e06f6460f99" name="Reqres testsuite"><con:settings/><con:runType>PARALLELL</con:runType><con:testCase id="02fe5e06-7890-4be6-94b9-e5bec5296723" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Tstep1" id="a44cf7d1-5edb-4a87-a9fe-15d5f45786ae"><con:settings/><con:config service="https://reqres.in" resourcePath="/api/unknown" methodName="Unknown 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Tstep1" id="dad96240-6c3e-430e-9976-84eb85d3355f" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/unknown</con:originalUri><con:assertion type="Simple Contains" id="673ff4d7-f6d4-4c4a-9699-6df94d36ce54" name="Contains"><con:configuration><token>cerulean</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="JsonPath Count" id="9558f03b-bbdb-4ff9-8bb7-c900ffa34d6e" name="JsonPath Count"><con:configuration><path>$.data[0].id</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Existence Match" id="58c0e7d9-1f17-4b7c-a563-89568f750a06" name="JsonPath Existence Match"><con:configuration><path>$.data[0].id</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="a4bfb20e-f965-40f1-b142-72a6d4676eff" name="JsonPath Match"><con:configuration><path>$.data[0].pantone_value</path><content>15-4020</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath RegEx Match" id="e7f5c4c4-4ee7-41e5-837a-7f4877f5c328" name="JsonPath RegEx Match"><con:configuration><path>$.data[0].pantone_value</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments><regEx>[0-9]{2}+"-"+[0-9]{4}</regEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="6b87f01b-e1ae-420e-b915-56397d90cb7f" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="99e9e397-09f5-4cab-aa8d-4cdfaa69a157" name="Script Assertion 1"><con:configuration/></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Report" id="43a38779-7d40-4e2b-88be-4934c5a566ce"><con:settings/><con:config><script><![CDATA[import java.io.*;
+
+//File creation
+File file = new File("C:/Users/subha/Desktop/Report.html");
+file.createNewFile();
+
+//Date and execution time taken
+Date d= new Date();
+log.info(d);
+def time = testRunner.getTimeTaken();
+log.info(time + "ms");
+//Fetching contents .
+
+def projectName= testRunner.testCase.testSuite.project.name;
+log.info(projectName);
+def suiteName= testRunner.testCase.testSuite.name;
+log.info(suiteName);
+def caseName= testRunner.testCase.name;
+log.info(caseName);
+
+//Req , Response and Header Details 
+
+def Res= testRunner.testCase.testSteps["Tstep1"].testRequest.response.contentAsString;
+log.info(Res);
+def Res1 = context.expand('${Tstep1#Response}');
+log.info(Res1);
+
+def status= testRunner.getStatus();   
+log.info(status);
+
+FileWriter writer = new FileWriter(file);
+PrintWriter pen = new PrintWriter(writer);
+pen.write("subha");
+
+pen.write("<!DOCTYPE html >");
+pen.write("<head>")
+pen.write("</head>")
+pen.write("<body>")
+pen.write("<h1 align=center > $projectName</h1>");
+pen.write("<h4 align=center > $d</h4>");
+pen.write("<h4 align=center >Execution Time : $time ms </h4>");
+pen.write("<h2 align=left > $suiteName</h2>");
+pen.write("<h3 align=center > $caseName</h3>");
+
+pen.write("<table border= 1px>");
+pen.write("<tr>");
+pen.write("<th> Request Details </th>");
+pen.write("<th> Rresponse Details </th>");
+pen.write("<th> Status </th>");
+pen.write("</tr>");
+pen.write("<tr>")
+pen.write("<td> Request Details </td>");
+pen.write("<td> $Res </td>");
+pen.write("<td> $status </td>");
+pen.write("</tr>");
+pen.write("</table>");
+pen.write("</body>")
+
+pen.write("</html>")
+pen.close();
+
+
+
+
+
+
+]]></script></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="9606f286-5da5-4e10-946b-4951acb4f6bd" disabled="true"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>TransferName</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>Tstep1</con:sourceStep><con:sourcePath>$.data[0].pantone_value</con:sourcePath><con:targetType>Prop</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:type>JSONPATH</con:type><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="6decdc8d-0e10-432f-97e6-4bde3d720444"><con:settings/><con:config><script>/*def TCName = testRunner.testCase.name;
+def TSName =testRunner.testCase.testSuite.name;
+def TPName =testRunner.testCase.testSuite.project.name;
+def TWName =testRunner.testCase.testSuite.project.workspace.name;
+
+//Getting property value
+def TCpropertyvalue =testRunner.testCase.getPropertyValue("Prop");
+log.info(TCpropertyvalue);
+def TSpropertyvalue =testRunner.testCase.testSuite.getPropertyValue("Prop");
+log.info(TSpropertyvalue);
+def TPpropertyvalue =testRunner.testCase.testSuite.project.getPropertyValue("Prop");
+log.info(TPpropertyvalue);
+
+
+//testRunner.testCase.setPropertyValue("Property1","Created via automation suite");
+//testRunner.testCase.addProperty("Propertyadd");
+testRunner.testCase.removeProperty("Propertyadd");
+
+def a = context.expand('${#TestCase#Prop}');
+
+def response = testRunner.testCase.testSteps["Req1"].testRequest.response.contentAsString;
+log.info(response);
+def response1= context.expand('${Tstep1#Response}');
+log.info(response1);*/
+testRunner.testCase.testSuite.project.setPropertyValue("PName","I am in Project")
+</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="0b578800-04e0-414e-af0f-4aa10b1a411d"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Prop</con:name><con:value>Teststep manual property</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Setup,TearDown" id="d5cb2439-0d39-47d2-a5af-cb03372a08b5"><con:settings/><con:config><script>log.info(testRunner.testCase.getSetupScript());
+log.info(testRunner.testCase.getTearDownScript());
+log.info(testRunner.testCase.testSuite.getSetupScript());
+log.info(testRunner.testCase.testSuite.getTearDownScript());
+</script></con:config></con:testStep><con:testStep type="groovy" name="Running_Groovy" id="3402f93d-a468-4ecd-bbd6-d05ed92185fd"><con:settings/><con:config><script>//Tr TC TS P
+//testRunner.testCase.run(testRunner,context);
+
+//testRunner.testCase.testSuite.run(testRunner,context);
+
+def TSuiteRun = testRunner.testCase.run(testRunner,context);
+def TSuiteRunStatus= TSuiteRun.isRunning;
+
+if(TSuiteRunStatus=="true");
+TSuiteRun.waitUntilFinished;
+def Fstatus = TSuiteRun.getStatus();
+//testRunner.testCase.getTestStepByName('Tstep1').run(testRunner,context);
+
+new com.eviware.soapui.SOAPUI.support.types.StringToObjectMap();
+def TSuiteRun = testRunner.testCase.run(null,false);
+
+def TSuiteRun = testRunner.testCase.run(new com.eviware.soapui.SOAPUI.support.types.StringToObjectMap(),false);
+
+com.eviware.soapui.SOAPUI.globalProperties.setPropertyValue("","");</script></con:config></con:testStep><con:setupScript>log.info("This is Testcase setup")</con:setupScript><con:tearDownScript>log.info("This is Testcase Teardown")</con:tearDownScript><con:properties><con:property><con:name>Prop</con:name><con:value>15-4020</con:value></con:property><con:property><con:name>Property1</con:name><con:value>Created via automation suite</con:value></con:property></con:properties></con:testCase><con:testCase id="9fc5260b-7b0f-4a29-a169-d4702eb79c38" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Create user TC1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Method 1 - Request 1" id="3f80d030-6d4f-4c56-8836-e9daefb854cc"><con:settings/><con:config service="https://reqres.in" resourcePath="/api/users" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Method 1 - Request 1" id="5a7b6b58-46b0-4a9d-832c-cc4b03a7114a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>Prop</con:name><con:value>Testsuite manual property</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>Prop</con:name><con:value>Project manuak property</con:value></con:property><con:property><con:name>PName</con:name><con:value>I am in Project</con:value></con:property></con:properties><con:afterLoadScript>log.info("This is Project setup")</con:afterLoadScript><con:beforeSaveScript>log.info("This is Project Teardown")</con:beforeSaveScript><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:beforeRunScript>log.info("This is suite setup")</con:beforeRunScript><con:afterRunScript>log.info("This is suite Teardown")</con:afterRunScript><con:sensitiveInformation/></con:soapui-project>
